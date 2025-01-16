@@ -4,6 +4,29 @@
 
 This API is a user authentication API that provides authentication and user management functionalities. It includes features such as user signup, login, logout, **email verification**, **password reset**, and user authorization. This API uses tools such as `JWT`, `nodemailer`, `mongoose` etc. in order to achieve tasks.
 
+## Table of Contents
+## Table of Contents
+- [Features](#features)
+- [Routes](#routes)
+  - [Auth Routes](#auth-routes)
+    - [`GET` `/auth/`](#get-auth)
+    - [`POST` `/auth/signup`](#post-authsignup)
+    - [`POST` `/auth/login`](#post-authlogin)
+    - [`GET` `/auth/logout`](#get-authlogout)
+    - [`GET` `/auth/check`](#get-authcheck)
+    - [`POST` `/auth/verify`](#post-authverify)
+    - [`POST` `/auth/reset`](#post-authreset)
+    - [`POST` `/auth/reset/:token`](#post-authresettoken)
+  - [Protected Routes](#protected-routes)
+    - [`GET` `/`](#get)
+- [Error Handling](#error-handling)
+- [Middleware](#middleware)
+- [Models](#models)
+- [Environment Variables](#environment-variables)
+- [Installation](#installation)
+  - [Prerequisites](#prerequisites)
+  - [Steps](#steps)
+
 ## Features
 - **User Signup**: Allows new users to register.
 - **User Login**: Allows registered users to log in.
