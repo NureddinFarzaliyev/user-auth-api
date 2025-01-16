@@ -5,7 +5,6 @@
 This API is a user authentication API that provides authentication and user management functionalities. It includes features such as user signup, login, logout, **email verification**, **password reset**, and user authorization. This API uses tools such as `JWT`, `nodemailer`, `mongoose` etc. in order to achieve tasks.
 
 ## Table of Contents
-## Table of Contents
 - [Features](#features)
 - [Routes](#routes)
   - [Auth Routes](#auth-routes)
