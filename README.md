@@ -213,8 +213,8 @@ These are the environmental variables which is used in the API. In order to use 
 ### Steps
 1. **Clone the repository**:
     ```sh
-    git clone <repository-url>
-    cd menu-app/api
+    git clone https://github.com/NureddinFarzaliyev/user-auth-api.git
+    cd user-auth-api
     ```
 
 2. **Install dependencies**:
